@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공지사항&갤러리 탭 구현1</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="contents">
+            <div class="notice">
+                <div class="tabs">
+                    <div class="tab-news">공지사항</div>
+                    <div class="tab-gallery">갤러리</div>
+                </div>
+                <div class="news">
+                    <ul>
+                        <li>
+                            <a href="javascript:openPop();">공지사항 1의 내용입니다.</a>
+                        </li>
+                        <li>2004-04-01</li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#">공지사항 2의 내용입니다.</a>
+                        </li>
+                        <li>2004-04-01</li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#">공지사항 3의 내용입니다.</a>
+                        </li>
+                        <li>2004-04-01</li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#">공지사항 4의 내용입니다.</a>
+                        </li>
+                        <li>2004-04-01</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="./img/g1.jpeg" alt="" width="100" height="100">
+                <img src="./img/g2.jpeg" alt="" width="100" height="100">
+                <img src="./img/g3.jpeg" alt="" width="100" height="100">
+            </div>
+        </div>
+    </div>
+    <div id="pop">
+        <div class="title">공지사항 1</div>
+        <p>
+            <img src="./img/launching.jpeg" alt="" width="450" height="150">
+        </p>
+        <p>공지사항 1에 대한  안내문입니다. <br> 많은 성원부탁드립니다. <br> 감사합니다.</p>
+        <p class="exit"><button onclick="closePop()">닫기</button></p>
+        <script src="./js/jquery-2.2.3.min.js"></script>
+        <script src="./js/script.js"></script>
+    </div>
+</body>
+</html>
