@@ -28,6 +28,59 @@ header > div {
     width: 800px;
     float: right;
     margin-right: 50px;
-    padding-top: 50px;
+    padding-top: 71.2px;
+    z-index: 1;
+}
+.main-menu {
+    height: 50px;
+    width: 800px;
+    background-color: #ddd;
+}
+.sub-menu {
+    width: 800px;
+    background-color: #000;
+    height: 120px;
+    display: none;
+}
+.main-menu ul li {
+    width: 25%;
+    height: 50px;
+    float: left;
+}
+.main-menu ul li a {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+    color: black;
 }
 
+.sub-menu ul li {
+    width: 25%;
+    float: left;
+}
+
+.sub-menu ul li ul li {
+    width: 100%;
+    height: 30px;
+    background-color: #000;
+}
+
+.sub-menu ul li ul li a {
+    width: 100;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+    color: white; 
+}
+
+.main-menu ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+.sub-menu ul li ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
