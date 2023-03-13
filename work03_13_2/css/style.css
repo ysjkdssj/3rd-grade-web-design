@@ -92,12 +92,12 @@ header > div {
     width: 100%;
     height: 100%;
     position: absolute;
-    left: 100%;
-    top: 0;
+    top: -100%;
+    /* top: 0; */
     z-index: 0;
 }
 .slide > img:first-child {
-    left: 0;
+    top: 0;
 }
 footer {
     width: 100%;
@@ -176,7 +176,10 @@ footer .sns a {
 .tabs .tab-gallery {
     border-left: 0;
 }
-.news .gallery {
+/* .news {
+    border: 1px solid #000;
+} */
+.news, .gallery {
     margin-top: -1px;
     width: 100%;
     height: 130px;
@@ -199,6 +202,7 @@ footer .sns a {
 }
 .gallery {
     display: none;
+    border: 1px solid #000;
 }
 
 .gallery img {
